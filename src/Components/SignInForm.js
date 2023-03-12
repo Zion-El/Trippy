@@ -10,12 +10,13 @@ const SignInForm = () => {
             <input type='email' placeholder='Email'/>
             <input type="password" placeholder='Password'/>
             
-            <button>Sign in</button>
+            <button className='signin_Btn'>Sign in</button>
             <div className='signup-tab'>
               <p>Don't have an account?<Link className='signup-link' to='/signup'>Sign Up Here</Link></p>
               <Link className='F-Password' to='/forgotpassword'>Forget Password</Link>
             </div>
         </form>
+        
     </div>
   )
 }
